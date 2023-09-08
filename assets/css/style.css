@@ -67,7 +67,7 @@ nav {
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display:none;
-    top:100%
+    top:100%;
 }
 
 /*Nav toggle*/
@@ -107,6 +107,8 @@ nav {
     box-shadow:none;
     width:fit-content;
     padding-right: 1rem;
+    
+    
 }
 #menu {
     display:flex
@@ -125,7 +127,13 @@ nav {
 }
 /*Main Content*/
 main {
-    /*Push main contentt down to accomodate larger header*/
+    /*Push main content down to accomodate larger header*/
     margin-top: 79px;
 }
+}
+/*Media Query: Laptops and desktops (992px and up)*/
+@media screen and (min-width: 992px) {
+ #menu > a:hover{
+    border-bottom:1px solid #3a3a3a;
+ }
 }
